@@ -1,14 +1,14 @@
 # Write your code here.
 
 def line(array)
-  # message = ""
+  message = ""
   if array.size == 0
     "The line is currently empty."
-  # else
-  #   message = "The line is currently: "
-  #   array.each do |name|
-  #     message += "#{array.index(name) + 1}. name "
-  #   end
+  else
+    message = "The line is currently: "
+    array.each do |name|
+      message += "#{array.index(name) + 1}. name "
+    end
   end
 end
 
