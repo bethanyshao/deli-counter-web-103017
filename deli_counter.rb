@@ -8,7 +8,7 @@ def line(array)
     array.each do |name|
       message += "#{array.index(name) + 1}. name "
     end
-    puts message
+    puts "#{message}"
   end
 end
 
