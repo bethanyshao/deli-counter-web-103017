@@ -10,7 +10,7 @@ def line(array)
       message += "#{array.index(name) + 1}. #{name} "
     end
   end
-  puts "#{message}"
+  puts "#{message.strip}"
 end
 
 def take_a_number(array, name)
