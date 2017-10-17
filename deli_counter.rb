@@ -1,7 +1,7 @@
 # Write your code here.
 
 def line(array)
-  message = ""
+  # message = ""
   if array.size == 0
     "The line is currently empty."
   # else
