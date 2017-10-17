@@ -24,8 +24,8 @@ def now_serving(array)
   if array.size == 0
     message = "There is nobody waiting to be served!"
   else
-    next_customer = array.shift 
-    message = "Currently serving Logan."
+    next_customer = array.shift
+    message = "Currently serving #{next_customer}."
   end
   puts "#{message}"
   array
