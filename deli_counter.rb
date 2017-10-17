@@ -2,13 +2,13 @@
 
 def line(array)
   if array.size == 0
-    "The line is currently empty."
+    puts "The line is currently empty."
   else
     message = "The line is currently: "
     array.each do |name|
       message += "#{array.index(name) + 1}. name "
     end
-    message
+    puts message
   end
 end
 
